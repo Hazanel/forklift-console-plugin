@@ -1,4 +1,4 @@
-import { NetworkMapFieldId } from '@utils/mappings/networkMap';
+import { NetworkMapFieldId } from 'src/networkMaps/utils/types';
 
 import { isNetworkMappingDisabled, isSameSourceNetwork } from '../utils';
 

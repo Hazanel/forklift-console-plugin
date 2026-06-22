@@ -1,0 +1,8 @@
+cd /home/ehazan/repos/forklift-console-plugin
+INVENTORY_SERVER_HOST=https://forklift-inventory-openshift-mtv.apps-crc.testing \
+SERVICES_API_SERVER_HOST=https://forklift-services-openshift-mtv.apps-crc.testing \
+npm run console
+
+
+cd /home/ehazan/repos/forklift-console-plugin
+npm run  start

@@ -2,9 +2,8 @@ import {
   buildNetworkMappings,
   getMappingValues,
 } from 'src/networkMaps/create/utils/buildNetworkMappings';
-
-import { NetworkMapFieldId } from '@utils/mappings/networkMap';
-import { PROVIDER_TYPES } from '@utils/providers/constants';
+import { NetworkMapFieldId } from 'src/networkMaps/utils/types';
+import { PROVIDER_TYPES } from 'src/providers/utils/constants';
 
 import {
   getHypervVlanQualifiedNetworks,
